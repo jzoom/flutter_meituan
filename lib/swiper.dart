@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:flutter/foundation.dart';
 
 class SwiperPagination{
   /**
@@ -193,6 +194,7 @@ class Swiper extends StatefulWidget{
 
 
   Swiper({
+    this.data,
     this.children,
     this.autoplay:8000,
     this.pagination,
